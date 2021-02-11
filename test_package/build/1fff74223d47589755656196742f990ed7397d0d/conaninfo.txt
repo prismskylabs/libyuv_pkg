@@ -1,0 +1,36 @@
+[settings]
+    arch=armv7hf
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=4.8
+    os=Linux
+
+[requires]
+    libyuv/cci.20201106
+
+[options]
+
+
+[full_settings]
+    arch=armv7hf
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=4.8
+    os=Linux
+
+[full_requires]
+    libyuv/cci.20201106:9a698a2a7be8f7a58996593b8fafe31c8a78cf9d
+
+[full_options]
+    libyuv:fPIC=True
+    libyuv:shared=False
+    libyuv:with_jpeg=False
+
+[recipe_hash]
+
+
+[env]
+    CONAN_CMAKE_TOOLCHAIN_FILE=/home/vagrant/libyuv_pkg/edge_build_base/src/platforms/arm/linux/toolchain-linux-armv7hf.cmake
+    CROSS_COMPILE=arm-linux-gnueabihf-

@@ -1,0 +1,22 @@
+{
+ "options": [
+  [
+   "libyuv:fPIC",
+   "True"
+  ],
+  [
+   "libyuv:shared",
+   "False"
+  ],
+  [
+   "libyuv:with_jpeg",
+   "False"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}

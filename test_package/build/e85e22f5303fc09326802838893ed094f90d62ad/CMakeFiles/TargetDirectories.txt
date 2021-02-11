@@ -1,0 +1,3 @@
+/home/vagrant/libyuv_pkg/test_package/build/e85e22f5303fc09326802838893ed094f90d62ad/CMakeFiles/rebuild_cache.dir
+/home/vagrant/libyuv_pkg/test_package/build/e85e22f5303fc09326802838893ed094f90d62ad/CMakeFiles/test_package.dir
+/home/vagrant/libyuv_pkg/test_package/build/e85e22f5303fc09326802838893ed094f90d62ad/CMakeFiles/edit_cache.dir
