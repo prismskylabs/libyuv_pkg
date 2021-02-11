@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "libyuv:fPIC=True\nlibyuv:shared=False\nlibyuv:with_jpeg=False",
+    "requires": [
+     "1"
+    ],
+    "path": "../../conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "libyuv/cci.20201106#5ada88acb8b390a0c0150e60e1e243e0",
+    "options": "fPIC=True\nshared=False\nwith_jpeg=False",
+    "package_id": "9a698a2a7be8f7a58996593b8fafe31c8a78cf9d",
+    "prev": "28c5c50659b21f47c9208003d60d7a3f",
+    "modified": true,
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=armv7hf\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++\ncompiler.version=4.8\nos=Linux\n[options]\n[build_requires]\n[env]\nCONAN_CMAKE_TOOLCHAIN_FILE=/home/vagrant/libyuv_pkg/edge_build_base/src/platforms/arm/linux/toolchain-linux-armv7hf.cmake\nCROSS_COMPILE=arm-linux-gnueabihf-"
+}
