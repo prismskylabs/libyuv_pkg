@@ -14,5 +14,6 @@
 # Fortran module files
 *.mod
 *.smod
+build
 
 
